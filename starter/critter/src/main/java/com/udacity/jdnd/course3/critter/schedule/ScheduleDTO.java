@@ -17,6 +17,10 @@ public class ScheduleDTO {
     private LocalDate date;
     private Set<EmployeeSkill> activities;
 
+    public long getId() { return this.id; }
+
+    public void setId(long id) { this.id = id; }
+
     public List<Long> getEmployeeIds() {
         return employeeIds;
     }
